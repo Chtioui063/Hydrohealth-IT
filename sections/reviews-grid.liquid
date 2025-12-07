@@ -1,0 +1,264 @@
+{% comment %}
+  Section: Reviews Grid (OS 2.0)
+  - Header (titre, note globale, compteur, logo Trustpilot)
+  - Blocks d'avis (image, étoiles, texte, auteur, date, badge vérifié)
+  - Boutons "Voir plus" (2 paliers)
+  - CSS externe pour éviter d'utiliser un Custom HTML
+{% endcomment %}
+
+{{ 'reviews-grid.css' | asset_url | stylesheet_tag }}
+
+<section id="reviews-{{ section.id }}" class="reviews-section">
+  <div class="reviews-header">
+    {% if section.settings.heading != blank %}
+      <h1>{{ section.settings.heading }}</h1>
+    {% endif %}
+    {% if section.settings.evaluate_text != blank %}
+      <h2 class="evaluate">{{ section.settings.evaluate_text }}</h2>
+    {% endif %}
+
+    {% if section.settings.show_global_rating %}
+      {%- assign rating = section.settings.global_rating | default: 4.7 | plus: 0 -%}
+      {%- assign tp4  = 'https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-4.svg' -%}
+      {%- assign tp45 = 'https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-4.5.svg' -%}
+      {%- assign tp5  = 'https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-5.svg' -%}
+      {%- assign header_src = tp4 -%}
+      {%- if rating >= 4.75 -%}{% assign header_src = tp5 %}{% elsif rating >= 4.25 -%}{% assign header_src = tp45 %}{% endif %}
+
+      <div class="review-rating">
+        <img src="{{ header_src }}" alt="{{ rating }}/5" class="stars-header-img" width="120" height="24" loading="lazy">
+      </div>
+
+      <div class="evaluate">
+        <span>{{ section.settings.label_rated }}</span>
+        <span><b>{{ rating }}</b></span> <span>-</span>
+        <span><b>{{ section.settings.global_count }}</b></span> <span>{{ section.settings.label_reviews }}</span>
+      </div>
+    {% endif %}
+
+    {% if section.settings.show_trustpilot_logo and section.settings.trustpilot_logo_img != blank %}
+      <div>
+        {{ section.settings.trustpilot_logo_img
+           | image_url: width: 200
+           | image_tag:
+              loading: 'lazy',
+              class: 'stars-header-img trustpilot-logo',
+              alt: 'Trustpilot' }}
+      </div>
+    {% endif %}
+
+    {% if section.settings.show_leave_btn %}
+      <div class="avis_dispo">
+        <button class="review-btn" type="button" data-open-modal="true">{{ section.settings.leave_btn_label }}</button>
+      </div>
+    {% endif %}
+  </div>
+
+  {%- assign initially_visible = section.settings.initial_visible | default: 12 | plus: 0 -%}
+  {%- assign second_wave      = section.settings.second_wave      | default: 8  | plus: 0 -%}
+  {%- assign second_limit     = initially_visible | plus: second_wave -%}
+
+  <div class="reviews-grid">
+    {%- for block in section.blocks -%}
+      {%- assign idx = forloop.index -%}
+      {%- assign hidden_class = '' -%}
+      {%- if idx > initially_visible and idx <= second_limit -%}
+        {%- assign hidden_class = 'hidden-review' -%}
+      {%- elsif idx > second_limit -%}
+        {%- assign hidden_class = 'hidden-review-2' -%}
+      {%- endif -%}
+
+      <div class="card review-card {{ hidden_class }}" {{ block.shopify_attributes }}>
+        <div class="card-body">
+          {% if block.settings.show_image and block.settings.image != blank %}
+            {{ block.settings.image
+               | image_url: width: 800
+               | image_tag:
+                  alt: block.settings.image_alt,
+                  loading: 'lazy',
+                  class: 'review-image' }}
+          {% endif %}
+
+          <div class="stars-small" aria-label="{{ block.settings.stars | default: 5 }} / 5">
+            {%- assign s = block.settings.stars | default: 5 | plus: 0 -%}
+            {%- assign tp4  = 'https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-4.svg' -%}
+            {%- assign tp45 = 'https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-4.5.svg' -%}
+            {%- assign tp5  = 'https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-5.svg' -%}
+            {%- assign block_star = tp4 -%}
+            {%- if s >= 4.75 -%}{% assign block_star = tp5 %}{% elsif s >= 4.25 -%}{% assign block_star = tp45 %}{% endif %}
+            <img src="{{ block_star }}" alt="{{ s }} étoiles" class="stars-small-img" width="110" height="22" loading="lazy">
+          </div>
+
+          <div class="content">
+            {% if block.settings.title != blank %}
+              <h3>{{ block.settings.title }}</h3>
+            {% endif %}
+            {% if block.settings.text != blank %}
+              <p>{{ block.settings.text }}</p>
+            {% endif %}
+
+            <div class="footer">
+              {%- assign initial = block.settings.name | default: '' | strip | slice: 0, 1 | upcase -%}
+              <div class="avatar-placeholder{% unless block.settings.verified %} gray{% endunless %}">
+                {{ initial | default: '•' }}
+              </div>
+              <span class="user-name">{{ block.settings.name | default: 'Client' }}</span>
+
+              {% if block.settings.verified %}
+                <div class="verified-row">
+                  <div class="verified-icon">✔</div>
+                  <div class="verified-text">{{ section.settings.label_verified }}</div>
+                </div>
+              {% endif %}
+
+              {% if block.settings.date != blank %}
+                <time class="review-date" datetime="{{ block.settings.date }}">{{ block.settings.date }}</time>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+      </div>
+    {%- endfor -%}
+  </div>
+
+  {% if section.blocks.size > initially_visible %}
+    <button class="review-btn see-more-1" type="button">{{ section.settings.see_more_label }}</button>
+  {% endif %}
+  {% if section.blocks.size > second_limit %}
+    <button class="review-btn see-more-2" type="button" style="display:none">{{ section.settings.see_more_label }}</button>
+  {% endif %}
+
+  {% if section.settings.enable_modal %}
+    <div class="modal-backdrop" id="review-modal-{{ section.id }}" hidden>
+      <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title-{{ section.id }}">
+        <h3 id="modal-title-{{ section.id }}">{{ section.settings.modal_title }}</h3>
+        <textarea id="review-text-{{ section.id }}" placeholder="{{ section.settings.modal_placeholder }}"></textarea>
+        <div class="btn-group">
+          <button class="btn cancel" data-close-modal="true" type="button">{{ section.settings.modal_cancel }}</button>
+          <button class="btn submit" data-submit-modal="true" type="button">{{ section.settings.modal_submit }}</button>
+        </div>
+      </div>
+    </div>
+  {% endif %}
+
+  <script>
+    (function(){
+      var root = document.getElementById('reviews-{{ section.id }}');
+      if(!root) return;
+
+      var btn1 = root.querySelector('.see-more-1');
+      var btn2 = root.querySelector('.see-more-2');
+
+      if(btn1){
+        btn1.addEventListener('click', function(){
+          root.querySelectorAll('.hidden-review').forEach(el => el.style.display = 'flex');
+          this.style.display = 'none';
+          if(btn2) btn2.style.display = 'inline-block';
+        });
+      }
+      if(btn2){
+        btn2.addEventListener('click', function(){
+          root.querySelectorAll('.hidden-review-2').forEach(el => el.style.display = 'flex');
+          this.style.display = 'none';
+        });
+      }
+
+      var openBtn = root.querySelector('[data-open-modal]');
+      var modal = document.getElementById('review-modal-{{ section.id }}');
+      if(openBtn && modal){
+        var closeBtn = modal.querySelector('[data-close-modal]');
+        var submitBtn = modal.querySelector('[data-submit-modal]');
+        var textarea = modal.querySelector('textarea');
+
+        openBtn.addEventListener('click', function(){ modal.hidden = false; document.body.style.overflow = 'hidden'; });
+        closeBtn.addEventListener('click', function(){ modal.hidden = true; document.body.style.overflow = ''; });
+        submitBtn.addEventListener('click', function(){
+          var text = (textarea.value || '').trim();
+          if(!text){ alert('{{ section.settings.modal_alert_blank | escape }}'); return; }
+          modal.hidden = true; document.body.style.overflow = '';
+          alert('{{ section.settings.modal_thanks | escape }}');
+          textarea.value = '';
+        });
+      }
+
+      try {
+        var localeMap = { fr: 'fr-FR', en: 'en-GB', it: 'it-IT' };
+        var dateLocale = "{{ section.settings.date_locale | default: 'fr' }}";
+        root.querySelectorAll('.review-date').forEach(function(el){
+          var iso = el.getAttribute('datetime');
+          if(iso && /^\d{4}-\d{2}-\d{2}$/.test(iso)){
+            var d = new Date(iso + "T00:00:00");
+            if(!isNaN(d)){
+              el.textContent = new Intl.DateTimeFormat(localeMap[dateLocale] || 'fr-FR', {
+                day:'numeric', month:'long', year:'numeric'
+              }).format(d);
+            }
+          }
+        });
+      } catch(e){}
+    })();
+  </script>
+</section>
+
+{% schema %}
+{
+  "name": "Reviews Grid",
+  "settings": [
+    { "type": "text", "id": "heading", "label": "Heading" },
+    { "type": "text", "id": "evaluate_text", "label": "Subtitle" },
+    { "type": "checkbox", "id": "show_global_rating", "label": "Show global rating", "default": true },
+    { "type": "text", "id": "global_rating", "label": "Global rating", "default": "4.7" },
+    { "type": "text", "id": "global_count", "label": "Total reviews", "default": "250" },
+    { "type": "text", "id": "label_rated", "label": "Rated label", "default": "Note globale" },
+    { "type": "text", "id": "label_reviews", "label": "Reviews label", "default": "avis" },
+    { "type": "checkbox", "id": "show_trustpilot_logo", "label": "Show Trustpilot logo", "default": true },
+    { "type": "image_picker", "id": "trustpilot_logo_img", "label": "Trustpilot logo" },
+    { "type": "checkbox", "id": "show_leave_btn", "label": "Show review button", "default": false },
+    { "type": "text", "id": "leave_btn_label", "label": "Leave a review label", "default": "Laisser un avis" },
+    { "type": "number", "id": "initial_visible", "label": "Initial visible reviews", "default": 12 },
+    { "type": "number", "id": "second_wave", "label": "Second wave", "default": 8 },
+    { "type": "checkbox", "id": "enable_modal", "label": "Enable modal", "default": false },
+    { "type": "text", "id": "modal_title", "label": "Modal title", "default": "Votre avis" },
+    { "type": "text", "id": "modal_placeholder", "label": "Placeholder", "default": "Écrivez votre avis..." },
+    { "type": "text", "id": "modal_cancel", "label": "Cancel button", "default": "Annuler" },
+    { "type": "text", "id": "modal_submit", "label": "Submit button", "default": "Envoyer" },
+    { "type": "text", "id": "modal_alert_blank", "label": "Blank alert", "default": "Merci d'écrire un avis" },
+    { "type": "text", "id": "modal_thanks", "label": "Thank you message", "default": "Merci pour votre avis !" },
+    {
+      "type": "select",
+      "id": "date_locale",
+      "label": "Date locale",
+      "options": [
+        { "value": "fr", "label": "Français" },
+        { "value": "en", "label": "English" },
+        { "value": "it", "label": "Italiano" }
+      ],
+      "default": "fr"
+    }
+  ],
+
+  "blocks": [
+    {
+      "type": "review",
+      "name": "Review",
+      "settings": [
+        { "type": "checkbox", "id": "show_image", "label": "Show image", "default": false },
+        { "type": "image_picker", "id": "image", "label": "Image" },
+        { "type": "text", "id": "image_alt", "label": "Image alt text" },
+        { "type": "number", "id": "stars", "label": "Stars (1–5)", "default": 5 },
+        { "type": "text", "id": "title", "label": "Review title" },
+        { "type": "textarea", "id": "text", "label": "Review text" },
+        { "type": "text", "id": "name", "label": "Customer name" },
+        { "type": "checkbox", "id": "verified", "label": "Verified purchase", "default": false },
+        { "type": "text", "id": "date", "label": "Date (YYYY-MM-DD)" }
+      ]
+    }
+  ],
+
+  "presets": [
+    {
+      "name": "Reviews Grid"
+    }
+  ]
+}
+{% endschema %}
