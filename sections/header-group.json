@@ -1,1 +1,95 @@
-{"type":"header","name":"Header group","sections":{"announcement-bar":{"type":"announcement-bar","blocks":{"message":{"type":"message","settings":{"text":"Offre spécial fin d'Année la 4ème offerte","url":""}},"message_TMG3nK":{"type":"message","settings":{"text":"Paiement 100% sécurisé","url":""}},"message_EwT3Na":{"type":"message","settings":{"text":"Satisfait ou remboursé","url":""}},"message_U4MTAR":{"type":"message","settings":{"text":"Livraison gratuite à domicile","url":""}}},"block_order":["message","message_TMG3nK","message_EwT3Na","message_U4MTAR"],"settings":{"enable_sticky":false,"autoplay":false,"cycle_speed":6,"text_size":"text-xs","navigation_mode":"scrolling","scrolling_speed":10,"background":"#e6f0fa","background_gradient":"","text_color":"#1a1a1a"}},"header":{"type":"header","custom_css":[],"settings":{"enable_sticky":false,"hide_on_scroll":true,"logo":"shopify:\/\/shop_images\/Copy_of_hydrohealth_logo.webp","logo_max_width":160,"logo_mobile_max_width":120,"menu":"main-menu","sidebar_menu":"","secondary_menu":"","menu_open_trigger":"click","opening_from":"bottom","layout":"logo_left_navigation_inline","show_social_media":true,"show_locale_selector":false,"show_country_selector":true,"show_country_flag":true,"show_country_name":true,"transparent_header_text_color":"#ffffff","reduce_padding":false,"background_opacity":100,"background_blur_radius":0}}},"order":["announcement-bar","header"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "header",
+  "name": "Header group",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "message": {
+          "type": "message",
+          "settings": {
+            "text": "Offerta speciale di fine anno: il quarto è in omaggio",
+            "url": ""
+          }
+        },
+        "message_TMG3nK": {
+          "type": "message",
+          "settings": {
+            "text": "Pagamento sicuro al 100%",
+            "url": ""
+          }
+        },
+        "message_EwT3Na": {
+          "type": "message",
+          "settings": {
+            "text": "Soddisfatti o rimborsati",
+            "url": ""
+          }
+        },
+        "message_U4MTAR": {
+          "type": "message",
+          "settings": {
+            "text": "Consegna gratuita a domicilio",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "message",
+        "message_TMG3nK",
+        "message_EwT3Na",
+        "message_U4MTAR"
+      ],
+      "settings": {
+        "enable_sticky": false,
+        "autoplay": false,
+        "cycle_speed": 6,
+        "text_size": "text-xs",
+        "navigation_mode": "scrolling",
+        "scrolling_speed": 10,
+        "background": "#e6f0fa",
+        "background_gradient": "",
+        "text_color": "#1a1a1a"
+      }
+    },
+    "header": {
+      "type": "header",
+      "custom_css": [],
+      "settings": {
+        "enable_sticky": false,
+        "hide_on_scroll": true,
+        "logo": "shopify://shop_images/Copy_of_hydrohealth_logo.webp",
+        "logo_max_width": 160,
+        "logo_mobile_max_width": 120,
+        "menu": "main-menu",
+        "sidebar_menu": "",
+        "secondary_menu": "",
+        "menu_open_trigger": "click",
+        "opening_from": "bottom",
+        "layout": "logo_left_navigation_inline",
+        "show_social_media": true,
+        "show_locale_selector": false,
+        "show_country_selector": true,
+        "show_country_flag": true,
+        "show_country_name": true,
+        "transparent_header_text_color": "#ffffff",
+        "reduce_padding": false,
+        "background_opacity": 100,
+        "background_blur_radius": 0
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
+}

@@ -118,7 +118,7 @@
         "full_width": true,
         "stack_mobile": false,
         "title": "",
-        "content": "<p><strong>Recommandée par les experts du bien-être :</strong></p>",
+        "content": "<p><strong>Raccomandato dagli esperti del benessere :</strong></p>",
         "text_alignment": "center",
         "items_per_row": 4,
         "background": "",
@@ -136,7 +136,7 @@
         "subheading_EJ8XQB": {
           "type": "subheading",
           "settings": {
-            "text": "LES 6 RAISONS POURLESQUELLES VOTRE CORPS VA VOUS REMERCIER"
+            "text": "I 6 MOTIVI PER CUI IL VOSTRO CORPO VI SARÀ GRATO"
           }
         }
       },
@@ -176,7 +176,7 @@
       "name": "Before/after image",
       "settings": {
         "full_width": true,
-        "subheading": "Les résultats parlent d'eux mêmes",
+        "subheading": "I risultati parlano da soli",
         "title": "",
         "content": "",
         "before_image": "shopify://shop_images/17.jpg",
@@ -184,8 +184,8 @@
         "expand_image": false,
         "text_position": "center",
         "before_after_text_position": "bottom",
-        "before_text": "Avant",
-        "after_text": "Après HydroHealth",
+        "before_text": "Prima",
+        "after_text": "Dopo HydroHealth",
         "drag_initial_position": 55,
         "background": "",
         "background_gradient": "",
@@ -203,7 +203,7 @@
         "full_width": true,
         "remove_vertical_spacing": true,
         "remove_horizontal_spacing": false,
-        "liquid": "<div class=\"tp-block FgVdQeK8P7\">\n  <style>\n    /* 🔧 ZÉRO ESPACE EN HAUT POUR CETTE SECTION UNIQUEMENT */\n    .tp-block{ margin:0 !important; padding:0 !important; }\n    .tp-block > *:first-child{ margin-top:0 !important; padding-top:0 !important; }\n\n    /* Optionnel : si le thème ajoute un gap interne au wrapper des sections */\n    .tp-block:where(.tp-block){ --section-padding-top: 0px; }\n\n    h1.d3FsH6IqT4{\n      margin-top:0 !important;\n      padding-top:0 !important;\n      font-size:26px;font-weight:bold;color:#333;text-align:center;\n    }\n\n    h1 .AaB2Y5Gp9f{\n      background:linear-gradient(to bottom,#28a745 0%,#d3f9d8 100%);\n      -webkit-background-clip:text;color:transparent;\n    }\n\n    p.RwV2N5Lt0I{ margin-top:5px;font-size:16px;color:#555;text-align:center; }\n\n    .LaVtZ1Q0xK{ display:flex;align-items:center;justify-content:center;\n      font-family:Arial,sans-serif;font-size:14px;color:#333;margin-top:10px; }\n\n    .KsF9M8H2Ej{ display:flex;align-items:center;margin-right:10px; }\n    .KsF9M8H2Ej img{ max-width:100px;width:100px;height:auto; }\n\n    .jX4N5P7Dr6{ font-weight:normal; }\n    .Yk4V8N6Vf1{ font-weight:bold; }\n    .zT8B3S1VgD{ font-weight:normal;margin-left:5px; }\n\n    .F0rW6K8yEz{ display:flex;flex-wrap:nowrap;gap:20px;overflow-x:scroll;\n      padding:20px;margin:20px auto;width:90%;box-sizing:border-box; }\n\n    .nQ0V3S1vD7{\n      background:#fff;border-radius:8px;padding:20px;box-shadow:0 4px 6px rgba(0,0,0,.1);\n      text-align:left;position:relative;border-left:4px solid #28a745;width:400px;flex-shrink:0;\n    }\n    .nQ0V3S1vD7 .Fb0W9T8TjZ{ font-weight:bold;margin-bottom:5px;font-size:14px;color:#333; }\n    .nQ0V3S1vD7 .rT9B3G2MdF{ font-size:12px;color:#777;margin-bottom:15px; }\n    .nQ0V3S1vD7 .gP9Z3A2Kn7{ font-size:14px;color:#555;margin-bottom:15px;line-height:1.6; }\n    .nQ0V3S1vD7 .Vh3J2R4Nw1{ font-size:12px;color:#28a745;font-weight:bold; }\n    .nQ0V3S1vD7 .Bz5W3F7Wz2{ margin-top:10px; }\n    .Bz5W3F7Wz2 svg{ width:16px;height:16px;fill:#28a745; }\n\n    .iX7Q3H6Fv4{\n      font-size:14px;margin-top:20px;color:#555;text-align:center;\n      background:linear-gradient(to top,#d3f9d8 0%,#e1f7e0 60%,#f5fdf5 100%);padding:20px;\n    }\n    .iX7Q3H6Fv4 span{ background:#28a745;color:#fff;padding:2px 8px;border-radius:4px; }\n\n    /* Scrollbar horizontal */\n    .F0rW6K8yEz::-webkit-scrollbar{ height:8px; }\n    .F0rW6K8yEz::-webkit-scrollbar-thumb{ background:#28a745;border-radius:10px; }\n    .F0rW6K8yEz::-webkit-scrollbar-track{ background:#f5fdf5; }\n  </style>\n\n  <h1 class=\"d3FsH6IqT4\">Votre <span class=\"AaB2Y5Gp9f\">satisfaction</span> est notre succès</h1>\n  <p class=\"RwV2N5Lt0I\">Nous apprécions vos commentaires</p>\n\n  <div class=\"LaVtZ1Q0xK\">\n    <div class=\"KsF9M8H2Ej\">\n      <img src=\"https://i.imgur.com/EHjNmTM.png\" alt=\"5 stars\">\n    </div>\n    <div class=\"jX4N5P7Dr6\">\n      Trustscore <span class=\"Yk4V8N6Vf1\">4.8 | 1000+</span> Avis\n    </div>\n  </div>\n</div>",
+        "liquid": "<div class=\"tp-block FgVdQeK8P7\">\n  <style>\n    /* 🔧 ZÉRO ESPACE EN HAUT POUR CETTE SECTION UNIQUEMENT */\n    .tp-block{ margin:0 !important; padding:0 !important; }\n    .tp-block > *:first-child{ margin-top:0 !important; padding-top:0 !important; }\n\n    /* Optionnel : si le thème ajoute un gap interne au wrapper des sections */\n    .tp-block:where(.tp-block){ --section-padding-top: 0px; }\n\n    h1.d3FsH6IqT4{\n      margin-top:0 !important;\n      padding-top:0 !important;\n      font-size:26px;font-weight:bold;color:#333;text-align:center;\n    }\n\n    h1 .AaB2Y5Gp9f{\n      background:linear-gradient(to bottom,#28a745 0%,#d3f9d8 100%);\n      -webkit-background-clip:text;color:transparent;\n    }\n\n    p.RwV2N5Lt0I{ margin-top:5px;font-size:16px;color:#555;text-align:center; }\n\n    .LaVtZ1Q0xK{ display:flex;align-items:center;justify-content:center;\n      font-family:Arial,sans-serif;font-size:14px;color:#333;margin-top:10px; }\n\n    .KsF9M8H2Ej{ display:flex;align-items:center;margin-right:10px; }\n    .KsF9M8H2Ej img{ max-width:100px;width:100px;height:auto; }\n\n    .jX4N5P7Dr6{ font-weight:normal; }\n    .Yk4V8N6Vf1{ font-weight:bold; }\n    .zT8B3S1VgD{ font-weight:normal;margin-left:5px; }\n\n    .F0rW6K8yEz{ display:flex;flex-wrap:nowrap;gap:20px;overflow-x:scroll;\n      padding:20px;margin:20px auto;width:90%;box-sizing:border-box; }\n\n    .nQ0V3S1vD7{\n      background:#fff;border-radius:8px;padding:20px;box-shadow:0 4px 6px rgba(0,0,0,.1);\n      text-align:left;position:relative;border-left:4px solid #28a745;width:400px;flex-shrink:0;\n    }\n    .nQ0V3S1vD7 .Fb0W9T8TjZ{ font-weight:bold;margin-bottom:5px;font-size:14px;color:#333; }\n    .nQ0V3S1vD7 .rT9B3G2MdF{ font-size:12px;color:#777;margin-bottom:15px; }\n    .nQ0V3S1vD7 .gP9Z3A2Kn7{ font-size:14px;color:#555;margin-bottom:15px;line-height:1.6; }\n    .nQ0V3S1vD7 .Vh3J2R4Nw1{ font-size:12px;color:#28a745;font-weight:bold; }\n    .nQ0V3S1vD7 .Bz5W3F7Wz2{ margin-top:10px; }\n    .Bz5W3F7Wz2 svg{ width:16px;height:16px;fill:#28a745; }\n\n    .iX7Q3H6Fv4{\n      font-size:14px;margin-top:20px;color:#555;text-align:center;\n      background:linear-gradient(to top,#d3f9d8 0%,#e1f7e0 60%,#f5fdf5 100%);padding:20px;\n    }\n    .iX7Q3H6Fv4 span{ background:#28a745;color:#fff;padding:2px 8px;border-radius:4px; }\n\n    /* Scrollbar horizontal */\n    .F0rW6K8yEz::-webkit-scrollbar{ height:8px; }\n    .F0rW6K8yEz::-webkit-scrollbar-thumb{ background:#28a745;border-radius:10px; }\n    .F0rW6K8yEz::-webkit-scrollbar-track{ background:#f5fdf5; }\n  </style>\n\n  <h1 class=\"d3FsH6IqT4\">Il tuo <span class=\"AaB2Y5Gp9f\">soddisfazione</span> è il nostro successo</h1>\n  <p class=\"RwV2N5Lt0I\">Apprezziamo i vostri commenti</p>\n\n  <div class=\"LaVtZ1Q0xK\">\n    <div class=\"KsF9M8H2Ej\">\n      <img src=\"https://i.imgur.com/EHjNmTM.png\" alt=\"5 stars\">\n    </div>\n    <div class=\"jX4N5P7Dr6\">\n      Trustscore <span class=\"Yk4V8N6Vf1\">4.8 | 1000+</span> recensioni\n    </div>\n  </div>\n</div>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
