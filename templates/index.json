@@ -753,99 +753,99 @@
         "item_mLpMBV": {
           "type": "item",
           "settings": {
-            "title": "Qu'est que l'eau hydrogénée ?",
-            "content": "<p>L’eau hydrogénée est simplement de l’eau qui a été infusée avec des molécules d’hydrogène supplémentaires, transformant l’H2O ordinaire en une boisson bénéfique pour la santé.</p>"
+            "title": "Che cos'è l'acqua idrogenata?",
+            "content": "<p>L'acqua idrogenata è semplicemente acqua che è stata arricchita con molecole di idrogeno aggiuntive, trasformando la normale H2O in una bevanda benefica per la salute.</p>"
           }
         },
         "item_beHi7B": {
           "type": "item",
           "settings": {
-            "title": "Comment nettoyer ma bouteille HydroHealth ?",
-            "content": "<p>Pour un <strong>entretien quotidien</strong>, un simple rinçage à l’eau chaude suffit.<br/><br/>Pour un <strong>nettoyage plus complet</strong>, ajoute un peu de vinaigre blanc ou de bicarbonate, laisse agir quelques minutes puis rince.<br/><br/>La base électronique <strong>ne doit jamais </strong>être immergée : un coup de chiffon humide suffit.<br/><br/>→ Nettoyage rapide, zéro entretien compliqué.</p>"
+            "title": "Come pulire la mia bottiglia HydroHealth?",
+            "content": "<p>Per la <strong>pulizia quotidiana</strong> è sufficiente un semplice risciacquo con acqua calda. </p><p><br/>Per una <strong>pulizia più accurata</strong>, aggiungi un po' di aceto bianco o bicarbonato, lascia agire per qualche minuto e poi risciacqua. </p><p>La base elettronica <strong>non deve</strong> mai essere immersa in acqua: è sufficiente pulirla con un panno umido. </p><p>→ Pulizia rapida, nessuna manutenzione complicata.</p>"
           }
         },
         "item_keRyNP": {
           "type": "item",
           "settings": {
-            "title": "Puis-je utiliser de l’eau filtrée (ex : carafe filtrante) ?",
-            "content": "<p>Oui, sans aucun problème.<br/><br/>L’eau filtrée est même idéale : la carafe élimine les impuretés, et la bouteille HydroHealth enrichit ensuite l’eau en hydrogène pour maximiser les bienfaits.<br/><br/>→ Filtré + hydrogéné = la combinaison la plus saine.</p>"
+            "title": "Posso usare acqua filtrata (ad esempio con una caraffa filtrante)?",
+            "content": "<p>Sì, senza alcun problema. </p><p>L'acqua filtrata è addirittura ideale: la caraffa elimina le impurità e la bottiglia HydroHealth arricchisce poi l'acqua di idrogeno per massimizzarne i benefici. </p><p>→ Filtrata + idrogenata = la combinazione più salutare.</p>"
           }
         },
         "item_8N9rmH": {
           "type": "item",
           "settings": {
-            "title": "Quel est son goût ?",
-            "content": "<p>Bien que vous puissiez voir des bulles monter dans votre bouteille, l'eau n'a pas le goût pétillant de l'eau gazeuse. L'eau hydrogénée a un goût léger, pur et vif, comme une eau de qualité supérieure, mais avec des bienfaits pour la santé en plus !</p>"
+            "title": "Che sapore ha?",
+            "content": "<p>Sebbene nella bottiglia siano visibili delle bollicine, l'acqua non ha il sapore frizzante dell'acqua gassata. L'acqua idrogenata ha un sapore leggero, puro e vivace, come un'acqua di alta qualità, ma con ulteriori benefici!</p>"
           }
         },
         "item_bwfNmh": {
           "type": "item",
           "settings": {
-            "title": "Quel type d'eau puis-je utiliser ?",
-            "content": "<p>Vous pouvez utiliser n'importe quel type d'eau avec votre bouteille HydroHealth. Elle est conçue pour fournir de l'eau riche en hydrogène, quelle que soit sa source.<br/><br/></p>"
+            "title": "Che tipo di acqua posso usare?",
+            "content": "<p>Puoi utilizzare qualsiasi tipo di acqua con la tua HydroHealth.<br/><br/>È progettata per arricchire l’acqua con idrogeno indipendentemente dalla sua origine.</p>"
           }
         },
         "item_NYVDGj": {
           "type": "item",
           "settings": {
-            "title": "Les filtres doivent-ils être remplacés ?",
-            "content": "<p>Le filtre de notre bouteille est un filtre générateur, ce qui signifie qu'il empêche l'oxygène et les autres minéraux de pénétrer dans votre eau. Il n'a pas besoin d'être remplacé. Le filtre générateur est durable.<br/><br/></p>"
+            "title": "I filtri devono essere sostituiti ?",
+            "content": "<p>Il filtro della nostra bottiglia è un filtro generatore, il che significa che impedisce all'ossigeno e ad altri minerali di penetrare nell'acqua. Non deve essere sostituito. Il filtro generatore è durevole.</p>"
           }
         },
         "item_9EFRxK": {
           "type": "item",
           "settings": {
-            "title": "Quelle est la concentration en hydrogène ?",
-            "content": "<p>La bouteille d'eau HydroHealth™ produit de l'eau hydrogénée en deux cycles. Un cycle de 3 minutes produit une concentration de 1 600 ppb, tandis qu'un cycle de 10 minutes produit une concentration impressionnante de 3 000 ppb<strong>(</strong></p><p><strong>attention : si vous utilisez la bouteille plus de trois minutes, desserrez le bouchon pour relâcher la pression).</strong></p>"
+            "title": "Qual è la concentrazione di idrogeno?",
+            "content": "<p>La bottiglia HydroHealth produce acqua idrogenata in due cicli. Un ciclo di 3 minuti produce una concentrazione di 1.600 ppb, mentre un ciclo di 10 minuti produce una concentrazione impressionante di 3.000 ppb </p><p><strong>Attenzione: se si utilizza la bottiglia per più di tre minuti, allentare il tappo per rilasciare la pressione</strong></p>"
           }
         },
         "166442457738b23caf-0": {
           "type": "item",
           "settings": {
-            "title": "La bouteille a-t-elle besoin d'un filtre de remplacement ?",
-            "content": "<p>Non, notre bouteille n'a pas besoin d'un filtre de remplacement. Nos filtres durent toute une vie !<br/><br/></p>"
+            "title": "La bottiglia necessita di un filtro di ricambio?",
+            "content": "<p>No, la nostra bottiglia non necessita di un filtro di ricambio. I nostri filtri durano tutta la vita!</p>"
           }
         },
         "166442457738b23caf-1": {
           "type": "item",
           "settings": {
-            "title": "Comment est produit l'hydrogène dans la bouteille ?",
-            "content": "<p>La bouteille fonctionne grâce à une <strong>technologie d’électrolyse PEM/SPE</strong>.<br/>Lorsque vous remplissez la bouteille d’eau et appuyez sur le bouton, une plaque en <strong>titane et platine </strong>sépare l’eau en oxygène et hydrogène. Le processus prend environ <strong>2 à 3 minutes</strong>.<br/>L’hydrogène est ensuite infusé directement dans l’eau à boire, tandis que l’oxygène et les gaz résiduels sont évacués par un petit système d’aération.</p>"
+            "title": "Come viene prodotto l'idrogeno nella bombola?",
+            "content": "<p>La bottiglia funziona grazie alla <strong>tecnologia di elettrolisi PEM/SPE</strong>. Quando si riempie la bottiglia d'acqua e si preme il pulsante, una piastra in <strong>titanio e platino</strong> separa l'acqua in ossigeno e idrogeno. Il processo richiede circa <strong>2-3 minuti</strong>. </p><p>L'idrogeno viene quindi infuso direttamente nell'acqua potabile, mentre l'ossigeno e i gas residui vengono espulsi attraverso un piccolo sistema di aerazione.</p>"
           }
         },
         "item_iCAxnc": {
           "type": "item",
           "settings": {
-            "title": "En combien de temps ressentirai-je les bienfaits ?",
-            "content": "<p>Certains ressentent plus d’énergie et une meilleure récupération dès les premiers jours, d’autres après 7 jours d’utilisation régulière. La clé, c’est la constance.<br/><br/></p>"
+            "title": "In quanto tempo ne sentirò i benefici?",
+            "content": "<p>Alcuni avvertono un aumento di energia e un miglioramento del recupero già dai primi giorni, altri dopo 7 giorni di utilizzo regolare. La chiave è la costanza.</p>"
           }
         },
         "item_BLc8Gw": {
           "type": "item",
           "settings": {
-            "title": "Combien de bouteilles dois-je boire par jour ?",
-            "content": "<p>Nous recommandons de boire 3 à 5 bouteilles par jour pour voir des améliorations. Plus vous buvez, plus vous verrez des résultats rapidement ! Tout dépend de vous !<br/><br/></p>"
+            "title": "Quante bottiglie devo bere al giorno?",
+            "content": "<p>Si consiglia di utilizzare la bottiglia da 1 a 3 volte al giorno, in base alle proprie abitudini di idratazione.<br/><br/>L’importante è integrarla nella tua routine quotidiana in modo naturale e costante.</p><p>Ognuno trova il proprio ritmo ideale: alcuni preferiscono usarla al mattino, altri durante la giornata.</p>"
           }
         },
         "item_Qi6h6G": {
           "type": "item",
           "settings": {
-            "title": "Puis-je utiliser de l'eau distillée, filtrée ou du robinet ?",
-            "content": "<p>Oui, vous pouvez utiliser de l'eau distillée, filtrée et du robinet. Vous pouvez également utiliser toute autre source d'eau comme l'osmose inverse, l'eau alcaline, purifiée, minérale et toute autre source. Notre bouteille fonctionne quelle que soit la source.<br/><br/></p>"
+            "title": "Posso usare acqua distillata, filtrata o del rubinetto?",
+            "content": "<p>Sì, puoi utilizzare acqua distillata, filtrata o del rubinetto.<br/><br/>Puoi usare anche altre tipologie di acqua come quella osmotizzata, alcalina, purificata o minerale.</p><p>La bottiglia è progettata per funzionare correttamente con <strong>qualsiasi fonte d’acqua naturale non gassata</strong>.</p>"
           }
         },
         "item_e88PrQ": {
           "type": "item",
           "settings": {
-            "title": "La bouteille est-elle en verre ou en plastique ?",
-            "content": "<p>Notre bouteille est en verre et la base est en acier inoxydable.</p>"
+            "title": "La bottiglia è di vetro o di plastica?",
+            "content": "<p>La nostra bottiglia è in vetro e la base è in acciaio inossidabile.</p>"
           }
         },
         "item_BJnAwt": {
           "type": "item",
           "settings": {
-            "title": "Combien de temps faut-il pour charger ?",
-            "content": "<p>Notre bouteille prend environ 30 minutes à une heure pour se charger complètement.<br/><br/></p>"
+            "title": "Quanto tempo occorre per ricaricare?",
+            "content": "<p>La nostra bottiglia impiega circa 30 minuti a un'ora per caricarsi completamente.</p>"
           }
         }
       },
@@ -871,8 +871,8 @@
         "title": "FAQ",
         "content": "",
         "team_avatar_width": 160,
-        "support_hours": "Notre service clientèle est disponible 7 jours sur 7.",
-        "answer_time": "Temps de réponse moyen : 24h",
+        "support_hours": "Il nostro servizio clienti è disponibile 7 giorni su 7.",
+        "answer_time": "Tempo medio di risposta: 24 ore",
         "button_text": "",
         "button_url": "",
         "text_position": "center",
@@ -896,8 +896,8 @@
             "show_image": true,
             "image_alt": "",
             "stars": 5,
-            "title": "Très satisfaite",
-            "text": "Je conseille fortement !! Vraiment, je sens la différence. Plus de fatigue qui tombe d'un coup comme avec le café. C'est devenu mon rituel, MERCI !",
+            "title": "Molto soddisfatta",
+            "text": "Lo consiglio vivamente!! Davvero, sento la differenza. Non ho più quella stanchezza improvvisa che mi viene dopo aver bevuto il caffè. È diventato il mio rituale quotidiano, GRAZIE!",
             "name": "Lucie L.",
             "verified": true,
             "date": "2025-10-03"
@@ -910,8 +910,8 @@
             "image": "shopify://shop_images/ASdNnCQCz.jpg",
             "image_alt": "",
             "stars": 5,
-            "title": "Merci Hydrohealth",
-            "text": "Mes douleurs articulaires ont diminué et je récupère mieux après le sport.",
+            "title": "Grazie Hydrohealth",
+            "text": "I miei dolori articolari sono diminuiti e mi riprendo meglio dopo lo sport.",
             "name": "Patrick G.",
             "verified": true,
             "date": "2025-09-22"
@@ -924,8 +924,8 @@
             "image": "shopify://shop_images/Screenshot_2025-10-01_175329.webp",
             "image_alt": "",
             "stars": 5,
-            "title": "Rapide et efficace",
-            "text": "Vraiment sympa, facile d’utilisation. Bon rapport qualité-prix. Je trouve cela efficace",
+            "title": "Rapido ed efficace",
+            "text": "Davvero simpatico, facile da usare. Buon rapporto qualità-prezzo. Lo trovo efficace.",
             "name": "Wendy L.",
             "verified": true,
             "date": "2025-11-09"
@@ -937,8 +937,8 @@
             "show_image": true,
             "image_alt": "",
             "stars": 5,
-            "title": "Magnifique",
-            "text": "Avant, chaque matin c'était la même : ballonnements, mal au ventre. Depuis que je bois cette eau, tout s'est calmé. Je ne pensais pas qu'un geste aussi simple changerait autant les choses.",
+            "title": "Magnifico",
+            "text": "Prima, ogni mattina era la stessa storia: gonfiore, mal di pancia. Da quando bevo quest'acqua, tutto si è calmato. Non pensavo che un gesto così semplice potesse cambiare così tanto le cose.",
             "name": "Joelle D.",
             "verified": true,
             "date": "2025-09-17"
@@ -951,8 +951,8 @@
             "image": "shopify://shop_images/ukVYLOFC9.jpg",
             "image_alt": "",
             "stars": 5,
-            "title": "Boost d'énergie immédiat",
-            "text": "L’eau a un goût plus doux et je ressens un vrai boost d’énergie au quotidien. Design élégant, facile à utiliser. Indispensable",
+            "title": "Immediato boost di energia",
+            "text": "L'acqua ha un sapore più dolce e mi sento davvero più energico ogni giorno. Design elegante, facile da usare. Indispensabile.",
             "name": "Alex D.",
             "verified": true,
             "date": "2025-10-28"
@@ -965,8 +965,8 @@
             "image": "shopify://shop_images/diJ6w1vcw.jpg",
             "image_alt": "",
             "stars": 5,
-            "title": "Parfait pour les reins",
-            "text": "Très bonne fabrication inox/verre. Je suis beaucoup moins fatiguée et je sens mes reins fonctionner à plein régime",
+            "title": "Perfetto per i reni",
+            "text": "Ottima fattura in acciaio inossidabile/vetro. Mi sento molto meno stanca e sento che i miei reni funzionano a pieno regime.",
             "name": "Elizabeth M.C",
             "verified": true,
             "date": "2025-09-30"
@@ -979,8 +979,8 @@
             "image": "shopify://shop_images/mptaJ_J0e.jpg",
             "image_alt": "",
             "stars": 5,
-            "title": "Excellente qualité",
-            "text": "Fonctionne très bien, emballage parfait. Fait un grand bien pour la santé",
+            "title": "Ottima qualità",
+            "text": "Funziona molto bene, confezione perfetta. Fa molto bene alla salute",
             "name": "Leydi Viviana L.",
             "verified": true,
             "date": "2025-11-01"
@@ -993,8 +993,8 @@
             "image": "shopify://shop_images/8cnGvO99C.jpg",
             "image_alt": "",
             "stars": 5,
-            "title": "Goût plus pur",
-            "text": "Le goût de l’eau est délicieux, impression de pureté et de légèreté. Je sens que cette eau est bonne pour ma santé",
+            "title": "Gusto più puro",
+            "text": "Il gusto dell'acqua è delizioso, dà una sensazione di purezza e leggerezza. Sento che quest'acqua fa bene alla mia salute.",
             "name": "Tatiana M.",
             "verified": true,
             "date": "2025-10-06"
@@ -1007,8 +1007,8 @@
             "image": "shopify://shop_images/WqbOL4JAU.jpg",
             "image_alt": "",
             "stars": 5,
-            "title": "J'adore",
-            "text": "Excellent produit, j’adore",
+            "title": "Adoro",
+            "text": "Ottimo prodotto, lo adoro",
             "name": "Karine L.",
             "verified": true,
             "date": "2025-09-16"
@@ -1021,8 +1021,8 @@
             "image": "shopify://shop_images/YOfvm7HiC.jpg",
             "image_alt": "",
             "stars": 5,
-            "title": "Goût plus pur",
-            "text": "Le goût de l’eau est délicieux, impression de pureté et de légèreté. Je sens que cette eau est bonne pour ma santé",
+            "title": "Gusto più puro",
+            "text": "Il gusto dell'acqua è delizioso, dà una sensazione di purezza e leggerezza. Sento che quest'acqua fa bene alla mia salute.",
             "name": "Tatiana M.",
             "verified": true,
             "date": "2025-10-21"
@@ -1035,8 +1035,8 @@
             "image": "shopify://shop_images/Untitled_design_10.webp",
             "image_alt": "",
             "stars": 5,
-            "title": "Livraison rapide et conforme",
-            "text": "La bouteille est arrivée en avance. Elle fonctionne bien. Satisfaite",
+            "title": "Consegna rapida e conforme",
+            "text": "La bottiglia è arrivata in anticipo. Funziona bene. Sono soddisfatta",
             "name": "Marlene G.",
             "verified": true,
             "date": "2025-11-11"
@@ -1048,8 +1048,8 @@
             "show_image": true,
             "image_alt": "",
             "stars": 5,
-            "title": "Incroyable",
-            "text": "La gourde est super pratique, je l’emmène partout. Mon quotidien a changé.",
+            "title": "Incredibile",
+            "text": "La borraccia è super pratica, la porto ovunque. La mia vita quotidiana è cambiata.",
             "name": "Laura P.",
             "verified": true,
             "date": "2025-10-18"
@@ -1061,8 +1061,8 @@
             "show_image": false,
             "image_alt": "",
             "stars": 4,
-            "title": "Qualité durable",
-            "text": "Semble de bonne qualité même après plusieurs mois d’utilisation",
+            "title": "Qualità sostenibile",
+            "text": "Sembra di buona qualità anche dopo diversi mesi di utilizzo.",
             "name": "Robert M.",
             "verified": true,
             "date": "2025-10-02"
@@ -1074,8 +1074,8 @@
             "show_image": false,
             "image_alt": "",
             "stars": 5,
-            "title": "Simple et pratique",
-            "text": "Très bon produit, rapide et rechargeable",
+            "title": "Semplice e pratico",
+            "text": "Ottimo prodotto, veloce e ricaricabile",
             "name": "Yolanda R.",
             "verified": true,
             "date": "2025-10-31"
@@ -1087,8 +1087,8 @@
             "show_image": false,
             "image_alt": "",
             "stars": 5,
-            "title": "Super facile",
-            "text": "Super produit, marche parfaitement",
+            "title": "Facilissimo",
+            "text": "Ottimo prodotto, funziona perfettamente",
             "name": "Jessica M.",
             "verified": true,
             "date": "2025-11-06"
@@ -1100,8 +1100,8 @@
             "show_image": false,
             "image_alt": "",
             "stars": 4,
-            "title": "Bonne première impression",
-            "text": "L’eau n’a pas de goût particulier, à voir dans le temps",
+            "title": "Buona prima impressione",
+            "text": "L'acqua non ha un sapore particolare, da vedere nel tempo",
             "name": "Rose D.",
             "verified": true,
             "date": "2025-09-29"
@@ -1113,8 +1113,8 @@
             "show_image": false,
             "image_alt": "",
             "stars": 5,
-            "title": "Plus d’énergie",
-            "text": "J’adore le toucher du verre et je sens déjà la différence d’énergie",
+            "title": "Più energia",
+            "text": "Adoro la sensazione del vetro al tatto e sento già la differenza di energia",
             "name": "Madison P.",
             "verified": true,
             "date": "2025-11-10"
@@ -1126,8 +1126,8 @@
             "show_image": false,
             "image_alt": "",
             "stars": 5,
-            "title": "Très bon emballage",
-            "text": "Produit de grande qualité, très bien emballé et réception rapide",
+            "title": "Ottimo imballaggio",
+            "text": "Prodotto di alta qualità, ben confezionato e consegna rapida",
             "name": "Claire B.",
             "verified": true,
             "date": "2025-10-14"
@@ -1139,8 +1139,8 @@
             "show_image": false,
             "image_alt": "",
             "stars": 5,
-            "title": "Fait le job",
-            "text": "Produit reçu dans les délais, satisfait",
+            "title": "Fa il suo dovere",
+            "text": "Prodotto ricevuto nei tempi previsti, soddisfatto",
             "name": "Laurent P.",
             "verified": true,
             "date": "2025-11-02"
@@ -1152,8 +1152,8 @@
             "show_image": false,
             "image_alt": "",
             "stars": 4,
-            "title": "À voir sur la durée",
-            "text": "Facile d'utilisation, on verra les effets dans les jours à venir",
+            "title": "Da vedere nel lungo periodo",
+            "text": "Facile da usare, vedremo gli effetti nei prossimi giorni",
             "name": "Paul L.",
             "verified": true,
             "date": "2025-10-05"
@@ -1165,8 +1165,8 @@
             "show_image": false,
             "image_alt": "",
             "stars": 4,
-            "title": "Meilleure forme",
-            "text": "Tiens les promesses : meilleure forme, articulations soulagées",
+            "title": "Migliore forma fisica",
+            "text": "Mantieni le promesse: forma fisica migliore, articolazioni più leggere",
             "name": "Britney J.",
             "verified": true,
             "date": "2025-09-26"
@@ -1178,8 +1178,8 @@
             "show_image": false,
             "image_alt": "",
             "stars": 4,
-            "title": "Très bien",
-            "text": "Très bien",
+            "title": "Molto bene",
+            "text": "Molto bene",
             "name": "Lise G.",
             "verified": true,
             "date": "2025-10-23"
@@ -1191,8 +1191,8 @@
             "show_image": false,
             "image_alt": "",
             "stars": 5,
-            "title": "Article trouvé !",
-            "text": "J’ai trouvé mon article, mille mercis",
+            "title": "Articolo trovato!",
+            "text": "Ho trovato il mio articolo, mille grazie",
             "name": "Fanny L.",
             "verified": true,
             "date": "2025-11-12"
@@ -1204,8 +1204,8 @@
             "show_image": false,
             "image_alt": "",
             "stars": 4,
-            "title": "Plus en forme",
-            "text": "Je me sens plus en forme et mieux",
+            "title": "Più in forma",
+            "text": "Mi sento più in forma e meglio",
             "name": "Mélanie Q.",
             "verified": true,
             "date": "2025-10-23"
@@ -1450,8 +1450,8 @@
       ],
       "name": "Reviews Grid",
       "settings": {
-        "heading": "Avis de nos clients",
-        "evaluate_text": "Excellent",
+        "heading": "Opinioni dei nostri clienti",
+        "evaluate_text": "Eccellente",
         "show_global_rating": true,
         "global_rating": "4.8",
         "global_count": "513",
@@ -1459,7 +1459,7 @@
         "label_reviews": "avis",
         "show_trustpilot_logo": true,
         "show_leave_btn": true,
-        "leave_btn_label": "Laisser un avis",
+        "leave_btn_label": "Lascia una recensione",
         "initial_visible": 12,
         "second_wave": 8,
         "enable_modal": true,
