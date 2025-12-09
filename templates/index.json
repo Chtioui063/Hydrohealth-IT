@@ -408,6 +408,7 @@
         "image_q9hHbh": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/badge_paiements_5565114d-753d-4825-bb14-1c680c746072.png",
             "alignment": "center",
             "max_width": 320
           }
