@@ -416,6 +416,7 @@
         "image_dA7WNq": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/7_clients_sur_10_offrent_un_Pillowa_Ortho_One_a_un_proche_ou_a_unune_amis_400_x_40_px_12.png",
             "alignment": "center",
             "max_width": 500
           }
