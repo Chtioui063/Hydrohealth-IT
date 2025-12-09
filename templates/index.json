@@ -644,8 +644,8 @@
         "section_padding_bottom": 40,
         "section_padding_sides": 20,
         "aria_label": "Comparatif Hydrohealth vs Filler Tradizionali",
-        "img_left_alt": "Hydrohealth",
-        "fallback_left": "Hydrohealth",
+        "img_left_alt": "",
+        "fallback_left": "Noi",
         "img_right_alt": "gli altri",
         "fallback_right": "gli altri",
         "pill_color": "#e6f0fa",
@@ -654,7 +654,7 @@
         "no_color": "#dddddd",
         "font_stack": "\"Montserrat\", \"Segoe UI\", Arial, sans-serif",
         "radius": 18,
-        "max_width": 800
+        "max_width": 680
       }
     },
     "image_with_text_overlay_r69c9Q": {
