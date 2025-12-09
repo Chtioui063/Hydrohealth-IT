@@ -643,18 +643,18 @@
         "section_padding_top": 40,
         "section_padding_bottom": 40,
         "section_padding_sides": 20,
-        "aria_label": "Comparatif Luvaya vs Filler Tradizionali",
-        "img_left_alt": "Luvaya",
-        "fallback_left": "Luvaya",
-        "img_right_alt": "Les autres",
-        "fallback_right": "Les autres",
+        "aria_label": "Comparatif Hydrohealth vs Filler Tradizionali",
+        "img_left_alt": "Hydrohealth",
+        "fallback_left": "Hydrohealth",
+        "img_right_alt": "gli altri",
+        "fallback_right": "gli altri",
         "pill_color": "#e6f0fa",
         "pill_color_fg": "#ffffff",
         "yes_color": "#117e2c",
         "no_color": "#dddddd",
         "font_stack": "\"Montserrat\", \"Segoe UI\", Arial, sans-serif",
         "radius": 18,
-        "max_width": 680
+        "max_width": 800
       }
     },
     "image_with_text_overlay_r69c9Q": {
