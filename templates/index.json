@@ -29,12 +29,12 @@
         "enable_parallax": false,
         "image_size": "auto",
         "image": "shopify://shop_images/energie_clarte_mentale_35.png",
-        "mobile_image": "shopify://shop_images/Banniere.png",
+        "mobile_image": "shopify://shop_images/energie_clarte_mentale_38.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 10
+        "overlay_opacity": 0
       }
     },
     "rich_text_6AmKRm": {
@@ -294,7 +294,7 @@
         "subheading": "‎",
         "title": "",
         "content": "",
-        "background": "#f5f5f5",
+        "background": "#ffffff",
         "background_gradient": "linear-gradient(54deg, rgba(NaN, NaN, NaN, 0) 14%, rgba(255, 250, 99, 1) 85%)",
         "text_color": "#2f3a4a"
       }
@@ -529,7 +529,7 @@
         "title": "",
         "text_alignment": "left",
         "first_tab_open": false,
-        "background": "#f5f5f5",
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": "#2f3a4a",
         "heading_color": "#1a4e89",
@@ -876,7 +876,7 @@
         "button_text": "",
         "button_url": "",
         "text_position": "center",
-        "background": "#f5f5f5",
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": "#2f3a4a",
         "heading_color": "#2f3a4a",
